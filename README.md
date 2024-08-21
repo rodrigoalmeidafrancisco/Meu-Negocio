@@ -1,2 +1,2 @@
-# MinhaLoja
-Aplicativo Mobile para controle de informações de uma loja
+# MeuMercado
+Aplicativo Mobile para controle e gerenciamento de um mercado.
