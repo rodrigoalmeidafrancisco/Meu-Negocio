@@ -3,3 +3,21 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+<!-- Adicionando a página Counter na Home -->
+<Counter IncrementAmount="10"/>
+<br />
+<br />
+<br />
+
+@if (accessType is NetworkAccess.Internet)
+{
+    <div class="text-danger">
+        @accessType
+    </div>
+}
+
+@code{
+
+    private NetworkAccess accessType = Connectivity.Current.NetworkAccess;
+}
